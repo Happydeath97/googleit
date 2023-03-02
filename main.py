@@ -19,4 +19,4 @@ def get_searching_term():
     return render_template('index.html', links=links)
 
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0', port = 3000)
+    app.run(port=5000)
