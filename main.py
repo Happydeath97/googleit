@@ -3,6 +3,7 @@ from scrap_google import get_links
 
 
 app = Flask(__name__)
+app.secret_key = "manbearpig_MUDMAN888"
 
 
 @app.route('/search')
