@@ -19,5 +19,4 @@ def get_searching_term():
     return render_template('index.html', links=links)
 
 if __name__ == '__main__':
-    # Run the app on the specified port
     app.run(host='0.0.0.0', port=port)
