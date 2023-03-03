@@ -5,7 +5,7 @@ from scrap_google import get_links
 app = Flask(__name__)
 
 
-@app.route('/search')
+@app.route('/')
 def index():
     return render_template('index.html')
 
