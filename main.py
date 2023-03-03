@@ -16,6 +16,3 @@ def get_searching_term():
 
     links = get_links(search_term)
     return render_template('index.html', links=links)
-
-if __name__ == "__main__":
-    app.run()
